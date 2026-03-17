@@ -1,7 +1,6 @@
 body {
     background-image: url(Background.png);
     background-repeat: no-repeat;
-    background-color: aliceblue;
     background-size: cover;
 }
 .block {
