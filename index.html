@@ -11,10 +11,15 @@
 </head>
 <body>
     <p class="text-center display-1">Electricity Consumption Classifier</p>
-    <form class="d-flex flex-column align-items-center gap-3">
-        <input type="number" id="input" placeholder="Enter number of kWh consumed" class="form-control w-25">
-        <input type="button" onclick="classifier()" value="Consumption Classifier">
-    </form>
-    <div id="output" style="font-size: xx-large; text-align: center;"></div>
+    <p class="text-center">Thank you for visiting our website. We're glad to have you here!</p>        
+    <div class="row block-row justify-content-center">
+        <div class="col-md-3 m-2 block">
+            <form class="d-flex flex-column align-items-center gap-3">
+                <input type="number" id="KWH_" placeholder="Enter number of kWh consumed" class="form-control w-25">
+                <input type="button" onclick="classifier()" value="Consumption Classifier" style="border-radius: 15px; margin-bottom: 10px; background-color: rgb(236, 205, 148); border: none; padding: 10px 20px; font-size: 16px; color: black;">
+            </form>
+            <div id="output" style="font-size: xx-large; text-align: center;"></div> 
+        </div>
+    </div>
 </body>
 </html>
