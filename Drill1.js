@@ -3,13 +3,13 @@ function classifier() {
     let input = Number (document.getElementById("KWH_").value);
 
     switch (true) {
-        case (input > 501):
+        case (input > 500):
             document.getElementById("output").innerHTML = 'Very High Consumption: Heavy electricity users';
             break;
-        case (input > 301):
+        case (input > 300):
             document.getElementById("output").innerHTML = 'High Consumption: Higher electricity usage';
             break;
-        case (input > 201):
+        case (input > 200):
             document.getElementById("output").innerHTML = 'Average Consumption: Typical electricity usage';
             break;
         case (input > 100):
